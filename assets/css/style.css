@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(../img/everest.jpeg) no-repeat center/cover;
+}
+
+section{
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    text-align: right;
+
+}
+
+h1, p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 2rem;
+}
